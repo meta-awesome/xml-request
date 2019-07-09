@@ -1,5 +1,5 @@
 {
-    "name": "metawesome/request-xml",
+    "name": "metawesome/laravel-request-xml",
     "description": "The missing XML support for Laravel's Request class.",
     "keywords": [
         "request",
