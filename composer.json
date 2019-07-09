@@ -1,5 +1,5 @@
 {
-    "name": "Meta/request-xml",
+    "name": "Metawesome/request-xml",
     "description": "The missing XML support for Laravel's Request class.",
     "keywords": [
         "request",
@@ -15,27 +15,27 @@
     ],
 	"autoload": {
         "psr-4": {
-            "Meta\\RequestXml\\": "src"
+            "Metawesome\\RequestXml\\": "src"
         }
     },
     "require": {
         "php": "~7.0",
         "illuminate/support": "^5.3",
         "illuminate/http": "^5.2",
-        "Meta/xml-to-array": "~1.0"
+        "Metawesome/xml-to-array": "~1.0"
     },
     "require-dev": {
       "phpunit/phpunit": "^6.4"
     },
     "autoload-dev": {
         "psr-4": {
-            "Meta\\RequestXml\\Test\\": "tests/"
+            "Metawesome\\RequestXml\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Meta\\RequestXml\\Providers\\RequestXmlServiceProvider"
+                "Metawesome\\RequestXml\\Providers\\RequestXmlServiceProvider"
             ]
         }
     },
