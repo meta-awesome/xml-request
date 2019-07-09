@@ -1,6 +1,7 @@
 {
     "name": "metawesome/laravel-request-xml",
     "description": "The missing XML support for Laravel's Request class.",
+    "version": "1.0.0",
     "keywords": [
         "request",
         "laravel",
@@ -39,5 +40,5 @@
             ]
         }
     },
-    "minimum-stability": "dev-master"
+    "minimum-stability": "dev"
 }
