@@ -22,7 +22,7 @@
         "php": "~7.0",
         "illuminate/support": "^5.3",
         "illuminate/http": "^5.2",
-        "Metawesome/xml-to-array": "~1.0"
+        "Metawesome/laravel-xml-to-array": "~1.0"
     },
     "require-dev": {
       "phpunit/phpunit": "^6.4"
